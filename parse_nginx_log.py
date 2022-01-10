@@ -2,11 +2,11 @@
 """
 NGINX log parser
 
-This script allows you to parse a file from an NGINX or Apache using CLF format syntax.
+This script allows you to parse a file from an NGINX or Apache using NGINX (CLF combined) format syntax.
 
 Usage:
     
-    python3 parse_clf_log.py -f <path>
+    python3 parse_nginx_log.py -f <path>
 
 Options:
 
@@ -16,7 +16,7 @@ Options:
 
 Help:
 
-    python3 parse_clf_log.py -h
+    python3 parse_nginx_log.py -h
 
 Author: raiabril
 
